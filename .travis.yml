@@ -1,10 +1,10 @@
 language: csharp
 mono: none
 dotnet: 2.1.300
-script:
+install:
  - dotnet restore
+script:
  - dotnet test App.Tests /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutputDirectory=coverage
- - dotnet run --project=App.tests codecov -- -f ./coverage/coverage.xml -verbose
 after_success:
  - bash <(curl -s https://codecov.io/bash)
 notifications:
