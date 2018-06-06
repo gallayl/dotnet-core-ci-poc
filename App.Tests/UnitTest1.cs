@@ -17,5 +17,11 @@ namespace App.Tests
         {
             Assert.AreEqual(Program.Add(1,2), 3);
         }
+        
+        [TestMethod]
+        public void TestProgramSubstract()
+        {
+            Assert.AreEqual(Program.Substract(3,2), 1);
+        }
     }
 }
