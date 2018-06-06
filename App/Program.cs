@@ -2,9 +2,12 @@
 
 namespace App
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+
+        public static int Add(int a, int b) => a+b;
+
+        public static void Main()
         {
             Console.WriteLine("Hello World!");
         }

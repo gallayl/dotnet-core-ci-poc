@@ -1,13 +1,21 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using App;
 
 namespace App.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class CallMainMethod
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestProgramMain()
         {
+            Program.Main();
+        }
+
+        [TestMethod]
+        public void TestProgramAdd()
+        {
+            Assert.Equals(Program.Add(1,2), 3);
         }
     }
 }
