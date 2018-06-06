@@ -15,7 +15,7 @@ namespace App.Tests
         [TestMethod]
         public void TestProgramAdd()
         {
-            Assert.Equals(Program.Add(1,2), 3);
+            Assert.AreEqual(Program.Add(1,2), 3);
         }
     }
 }
