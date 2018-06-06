@@ -1,4 +1,9 @@
 # dotnet-core-ci-poc
+
+[![Build Status](https://travis-ci.org/gallayl/dotnet-core-ci-poc.svg?branch=master)](https://travis-ci.org/gallayl/dotnet-core-ci-poc)
+[![codecov](https://codecov.io/gh/gallayl/dotnet-core-ci-poc/branch/master/graph/badge.svg)](https://codecov.io/gh/gallayl/dotnet-core-ci-poc)
+
+
 Proof-of-concept project for dotnet core and open source CI tools
 
  - [x] Simple HelloWorld console application project
